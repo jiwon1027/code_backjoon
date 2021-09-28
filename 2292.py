@@ -7,5 +7,3 @@ while n>result:
     result += 6 * count
     count += 1
 print(count)
-
-
