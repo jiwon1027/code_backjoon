@@ -1,5 +1,5 @@
 n = int(input())
-count = 0
+count = 1
 stack = []
 result = []
 no_message=True
@@ -7,17 +7,17 @@ no_message=True
 for i in range(n):
     x = int(input())
 
-    while count < x:
-      count += 1
+    while count <= x:
       stack.append(count)
       result.append("+")
+      count += 1
+
 
     if stack[-1]==x:
         stack.pop()
         result.append("-")
     else:
         no_message = False
-        exit(0) #a clean exit without any errors / problems
 
 if no_message==False:
     print("NO")
