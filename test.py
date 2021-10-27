@@ -1,20 +1,10 @@
-data = input()
-n1, n2, n3 = list(map(int, data))
+cnt = 0
+data = []
+while True:
+    n = int(input('정수를 입력하시오 :'))
+    if n == -99:
+        break
+    data.append(n)
+    cnt += 1
 
-
-def max3(n1, n2, n3):
-    Max = max(n1, n2, n3)
-
-    return Max
-
-
-def min3(n1, n2, n3):
-    Min = min(n1, n2, n3)
-
-    return Min
-
-
-max = max3(n1, n2, n3)
-min = min3(n1, n2, n3)
-print("가장큰수 :", max)
-print("가장작은수 :", min)
+print(f'{cnt}개의 유효한 정수중 가장 큰 정수는 {max(data)} 이고, 가장 작은 정수는 {min(data)}이다. ')
