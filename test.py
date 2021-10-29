@@ -1,10 +1,7 @@
-cnt = 0
-data = []
-while True:
-    n = int(input('정수를 입력하시오 :'))
-    if n == -99:
-        break
-    data.append(n)
-    cnt += 1
+a=1
+b=2
+c=100
+d=4
+s = '구구단 {0} x {1} = {2}'.format(a, b,c,d)
+print(s)
 
-print(f'{cnt}개의 유효한 정수중 가장 큰 정수는 {max(data)} 이고, 가장 작은 정수는 {min(data)}이다. ')
