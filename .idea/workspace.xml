@@ -34,7 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python.1037">
+  <component name="RunManager" selected="Python.test">
     <configuration name="1037" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="code_backjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.1037" />
         <item itemvalue="Python.4375" />
         <item itemvalue="Python.15990" />
         <item itemvalue="Python.11052" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>

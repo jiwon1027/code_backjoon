@@ -1,7 +1,9 @@
-a=1
-b=2
-c=100
-d=4
-s = '구구단 {0} x {1} = {2}'.format(a, b,c,d)
-print(s)
+n = 20
+for i in range(1, int(n**0.5)):
+    if n % i == 0:
+        print(i, end=" ")
+        print(n//i, end=" ")
+i += 1
+if i**2 == n:
+    print(i)
 
