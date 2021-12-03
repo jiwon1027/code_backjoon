@@ -1,14 +1,4 @@
-a = 'ABCD'
-b = '1234'
+import numpy as np
 
-new_str1 = ''
-new_str2 = ''
-
-for i in range(len(a)):
-    new_str1 += a[i]+b[i]
-for i in range(len(a)):
-    new_str2 += a[i]+b[-i-1]
-print(new_str1)
-print(new_str2)
-
-
+np_array = np.array([[1,2,3],[4,5,6],[7,8,9]])
+print(np_array>5)
