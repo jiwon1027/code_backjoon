@@ -1,4 +1,14 @@
+import matplotlib.pyplot as plt
 import numpy as np
+x_sin = np.arange(0,2*np.pi*6,0.1)
+y_sin = x_sin * np.sin(x_sin)
 
-np_array = np.array([[1,2,3],[4,5,6],[7,8,9]])
-print(np_array>5)
+x_cos = np.arange(0,2*np.pi*6,0.1)
+y_cos = 20 * np.cos(x_cos)
+
+
+
+plt.plot(x_sin,y_sin,'r-')
+plt.plot(x_cos,y_cos, 'b--')
+
+plt.show()
