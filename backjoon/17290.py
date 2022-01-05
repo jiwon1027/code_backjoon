@@ -2,6 +2,8 @@ r,c = list(map(int,input().split()))
 
 board = [list(map(str,input())) for _ in range(10)]
 visit = [[0] * 10 for i in range(10)]
+
+
 def fun(y,x):
     for i in range(10):
         if visit[i][x] == 0 and board[i][x] == 'x':
@@ -17,6 +19,9 @@ for y in range(10):
         if board[y][x] == 'o' and visit[y][x] == 0:
             fun(y,x)
 result = []
+
+
+
 for y in range(10):
     for x in range(10):
         if board[y][x] == 'x':

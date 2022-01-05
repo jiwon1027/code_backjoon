@@ -14,6 +14,7 @@ def cal(a,b):
 
 
 for i in permutations(person):
+    print(i)
     temp = 0
     present = yummi
     for p in i:

@@ -1,5 +1,6 @@
 n, m = map(int, input().split())
 limit_stu = [0] + list(map(int,input().split()))
+
 sugang = [[] for _ in range(m + 1)]
 result = [[] for _ in range(n + 1)]
 
@@ -17,7 +18,6 @@ for _ in range(2):
             sugang[i] = temp[i]
         else:
             limit_stu[i] = 0
-
 
 
 for i in range(m + 1):
