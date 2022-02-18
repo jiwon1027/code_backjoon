@@ -15,6 +15,7 @@ cnt = 0
 def dfs(start):
     global cnt
     visited[start] = 1
+
     for i in graph[start]:
         if not visited[i]:
             dfs(i)
