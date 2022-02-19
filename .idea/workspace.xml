@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cff619ce-8146-4c52-8295-4626fd5c76a3" name="Changes" comment="Changes" />
+    <list default="true" id="cff619ce-8146-4c52-8295-4626fd5c76a3" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/backjoon/14405.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backjoon/18111_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backjoon/23348.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backjoon/23351.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backjoon/5534.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -195,6 +202,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
