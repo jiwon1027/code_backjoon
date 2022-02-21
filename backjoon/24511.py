@@ -1,20 +1,11 @@
 import sys
-input = sys.stdin.readline
-
-n = int(input())
-queuestack = list(map(int, input().split()))
-B = list(map(int, input().split()))
-
-m = int(input())
-C = list(map(int, input().split()))
-
-res = []
-for j in C:
-    temp = j
-    for i in range(n):
-        if queuestack[i] == 0:
-            data = temp
-            temp = B[i]
-            B[i] = data
-    res.append(temp)
-print(*res)
+n=sys.stdin.readline()
+a=sys.stdin.readline().split()
+b=sys.stdin.readline().split()
+m=int(sys.stdin.readline())
+c=sys.stdin.readline().split()
+for i in range(len(a))[::-1]:
+    if a[i]=='1':
+        del b[i]
+res = b[::-1] + c
+print(*res[:len(c)])
