@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cff619ce-8146-4c52-8295-4626fd5c76a3" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/backjoon/1357.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backjoon/1475.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backjoon/16462.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backjoon/16466.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backjoon/16466_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backjoon/16466_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backjoon/18243.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backjoon/18243_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backjoon/18243_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backjoon/2535.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backjoon/5671.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backjoon/9742.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backjoon/11057.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backjoon/9742_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backjoon/16466_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/backjoon/16466_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backjoon/18243.py" beforeDir="false" afterPath="$PROJECT_DIR$/backjoon/18243.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backjoon/18243_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/backjoon/18243_2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +79,7 @@
       <recent name="$PROJECT_DIR$/backjoon" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.18243">
+  <component name="RunManager" selected="Python.18243_2">
     <configuration name="18243" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="code_backjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,10 +187,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.18243" />
         <item itemvalue="Python.18243_2" />
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.5671" />
+        <item itemvalue="Python.18243" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.2535" />
       </list>
     </recent_temporary>

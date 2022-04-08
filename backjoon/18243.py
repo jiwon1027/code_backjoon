@@ -1,3 +1,5 @@
+#BFS 이용
+
 import sys
 from collections import deque
 
@@ -9,6 +11,7 @@ for _ in range(K):
     graph[a].append(b)
     graph[b].append(a)
 #print(graph)
+
 def bfs(x):
     q = deque()
     q.append(x)

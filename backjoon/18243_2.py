@@ -1,4 +1,4 @@
-#dfs는 논리상 말이 안됨. 점을 하나 지정해서 길이가 6이 되야하는데 dfs를 해버리면 하나씩 지정이 안됨
+#DFS 이용
 
 import sys
 
@@ -9,18 +9,27 @@ for _ in range(K):
     a, b = map(int, sys.stdin.readline().split())
     graph[a].append(b)
     graph[b].append(a)
+#print(graph)
+def dfs(x,cnt,before):
+    if cnt == 7:
+        return
 
-def dfs(x,cnt):
-    visited[x] = 1
-
+    visited[x] = visited[before] + 1
+    #print(visited)
     for nx in graph[x]:
-        if not visited[nx]:
-            dfs(nx,cnt+1)
-    return
-visited = [0] * (N + 1)
-dfs(1,1)
+        if visited[nx] == -1:
+            dfs(nx,cnt+1,x)
 
-if 0 in visited[1:]:
-    print('Big World!')
-else:
+
+for i in range(1, N+1):
+    visited = [-1] * (N + 1)
+    dfs(i, 0, 0)
+    #print('*********')
+    if max(visited) > 6 or -1 in visited[1:]:
+        check = 1
+        break
+
+if not check:
     print('Small World!')
+else:
+    print('Big World!')
