@@ -1,27 +1,41 @@
-import sys
+path = 'SSSSSSWWWNNNNNN'
 
-INF = sys.maxsize
+distinct_path = []
+length = []
+start = path[0]
+temp = 1
 
-def Floyd_Warshall():
-    dist = [[INF] *n for i in range(n)]
+distinct_path.append(path[0])
+for i in path[1:]:
+    if i == start:
+        temp += 1
+    else:
+        distinct_path.append(i)
+        length.append(temp)
+        start = i
+        temp = 1
+else:
+    length.append(temp)
 
-    for i in range(n):
-        for j in range(n):
-            dist[i][j] = a[i][j]
+print(length)
+print(distinct_path)
 
-    for k in range(n):
-        for i in range(n):
-            for j in range(n):
-                if dist[i][j] > dist[i][k] + dist[k][j]:
-                    dist[i][j] = dist[i][k] + dist[k][j]
-    return dist
+time = 0
+direction = ['SE','SW','EN','ES','NW','NE','WS','WN']
+vector = ['left','right','left','right','left','right','left','right']
+answer = []
+for i in range(len(length)-1):
+    for j in range(length[i],0,-1):
+        if j <= 5:
+            temp_direct = distinct_path[i] + distinct_path[i + 1]
+            res = 'Time ' + str(time)+ ': Go straight ' + str(j*100) + 'and turn '+ vector[direction.index(temp_direct)]
+            answer.append(res)
+            time += j
+            break
+        else:
+            time += 1
 
-n = 4
-a = [[0,2,INF,4], [2,0,INF,5], [3,INF,0,INF],[INF,2,1,0]]
+print(answer)
 
-dist = Floyd_Warshall()
 
-for i in range(n):
-    for j in range(n):
-        print(dist[i][j], end='')
-    print()
+
