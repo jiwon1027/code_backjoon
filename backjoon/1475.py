@@ -1,13 +1,12 @@
-word = input()
-ans = [0] * 10
-for i in word:
-    num = int(i)
-    if num == 6 or num == 9:
-        if ans[6] <= ans[9]:
-            ans[6] += 1
+n = input()
+data = [0] * 10
+for i in n:
+    i = int(i)
+    if i == 6 or i == 9:
+        if data[6] >= data[9]:
+            data[9] += 1
         else:
-            ans[9] += 1
+            data[6] += 1
     else:
-        ans[num] += 1
-
-print(max(ans))
+        data[i] += 1
+print(max(data))
