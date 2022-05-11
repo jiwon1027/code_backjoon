@@ -8,7 +8,7 @@ data[x][y] = 1 # start 지점
 
 dx = [-1, 0, 1, 0, -1] #상 우 하 좌 상
 dy = [0, 1, 0, -1, 0]
-k_x, k_y = x ,y
+k_x, k_y = x, y
 check = 1
 i = 2
 
@@ -19,8 +19,6 @@ while i < n**2:
     if i == k:
         k_x, k_y = x, y
     i += 1
-
-
 
     for _ in range((check * 2) -1):
         x += dx[1]
