@@ -1,37 +1,44 @@
-masks = [[3200, 4], [2300, 2], [1100, 1], [4200, 6]]
-#masks = [[600, 2], [500, 1], [1015, 400]]
-#masks = [[3651, 365], [10, 1]]
+import random
+import turtle
 
-dates = ['2022/05/02', '2022/05/01', '2022/05/07', '2022/05/05', '2022/05/08', '2022/05/13~2022/05/15', '2022/05/14~2022/05/17', '2022/05/01~2022/05/02', '2022/05/16']
-#dates = ['2023/01/01~2023/01/02', '2021/12/31']
-#dates = ["2025/01/01~2025/12/31"]
+myTurtle, tX, tY, tSize = [None] * 4
+playerTurtles = []
+swidth, sheight = 500, 500
 
-day = [31,28,31,30,31,30,31,31,30,31,30,31]
+if __name__ == "__main__":
+    turtle.title('거북 리스트 활용(정렬)')
+    turtle.setup(width=swidth + 50, height=sheight + 50)
+    turtle.screensize(swidth, sheight)
 
-data = [[[0] * i  for i in day] for _ in range(10)]
 
-for i in dates:
-    if len(i) > 10:
-        z1, x1, y1 = int(i[:4]),int(i[5:7]),int(i[8:10])
-        z2, x2, y2 = int(i[11:15]),int(i[16:18]),int(i[19:])
-        for z in range(z1-2021, 10):
-            for x in range(x1-1, 13):
-                for y in range(y1-1, day[x]):
-                    data[z][x][y] = 1
-                    if z == z2 and x == x2 and y == y2:
-                        break
+    for i in range(5):
+        myTurtle = turtle.Turtle('turtle')
+        tX = random.randrange(-swidth / 2, swidth / 2)
+        tY = random.randrange(-sheight / 2, sheight / 2)
+        r = random.random()
+        g = random.random()
+        b = random.random()
+        #사이즈 설정
+        tSize = random.randrange(1, 100)/10
+        playerTurtles.append([myTurtle, tX, tY, tSize, r, g, b])
+    #크기에 대한 오름차순 정렬
+    sorted_Turtles = sorted(playerTurtles, key=lambda turtles: turtles[3])
 
-    else:
-        z1, x1, y1 = int(i[:4]),int(i[5:7]),int(i[8:10])
-        print(z1-2021,x1-1,y1-1)
-        data[z1-2021][x1-1][y1-1] = 1
-res = 0
+    for index, tList in enumerate(sorted_Turtles[0:]):
+        myTurtle = tList[0]
+        myTurtle.color((tList[4], tList[5], tList[6]))
+        myTurtle.pencolor((tList[4], tList[5], tList[6]))
+        myTurtle.turtlesize(tList[3])
+        myTurtle.penup()
+        #각도 설정
+        myTurtle.right(random.randrange(0, 360))
 
-for i in data:
-    for j in i:
-        for k in j:
-            if k == 1:
-                res += 1
+        if index == 0:
+            myTurtle.goto(tList[1], tList[2])
+            continue
+        myTurtle.goto(sorted_Turtles[index - 1][1], sorted_Turtles[index - 1][2])
 
-print(res)
-print(data[1][4])
+        myTurtle.pendown()
+        myTurtle.goto(tList[1], tList[2])
+
+turtle.done()
