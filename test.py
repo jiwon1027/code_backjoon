@@ -1,44 +1,46 @@
-import random
-import turtle
+import sys
 
-myTurtle, tX, tY, tSize = [None] * 4
-playerTurtles = []
-swidth, sheight = 500, 500
+input = sys.stdin.readline
 
-if __name__ == "__main__":
-    turtle.title('거북 리스트 활용(정렬)')
-    turtle.setup(width=swidth + 50, height=sheight + 50)
-    turtle.screensize(swidth, sheight)
+n,m,k = list(map(int,input().split()))
+money = list(map(int,input().split()))
 
+parent = [i for i in range(n+1)]
 
-    for i in range(5):
-        myTurtle = turtle.Turtle('turtle')
-        tX = random.randrange(-swidth / 2, swidth / 2)
-        tY = random.randrange(-sheight / 2, sheight / 2)
-        r = random.random()
-        g = random.random()
-        b = random.random()
-        #사이즈 설정
-        tSize = random.randrange(1, 100)/10
-        playerTurtles.append([myTurtle, tX, tY, tSize, r, g, b])
-    #크기에 대한 오름차순 정렬
-    sorted_Turtles = sorted(playerTurtles, key=lambda turtles: turtles[3])
+def find(x):
+    if parent[x] != x:
+        parent[x] = find(parent[x])
+    return parent[x]
 
-    for index, tList in enumerate(sorted_Turtles[0:]):
-        myTurtle = tList[0]
-        myTurtle.color((tList[4], tList[5], tList[6]))
-        myTurtle.pencolor((tList[4], tList[5], tList[6]))
-        myTurtle.turtlesize(tList[3])
-        myTurtle.penup()
-        #각도 설정
-        myTurtle.right(random.randrange(0, 360))
+def union(a,b):
+    a = find(a)
+    b = find(b)
 
-        if index == 0:
-            myTurtle.goto(tList[1], tList[2])
-            continue
-        myTurtle.goto(sorted_Turtles[index - 1][1], sorted_Turtles[index - 1][2])
+    if a < b:
+        parent[b] = a
+    else:
+        parent[a] = b
 
-        myTurtle.pendown()
-        myTurtle.goto(tList[1], tList[2])
+for _ in range(m):
+    a,b = list(map(int,input().split()))
+    union(a,b)
+res = 0
+friend = set()
+data = dict()
 
-turtle.done()
+for i in range(1,n+1):
+    idx = find(i)
+    if idx not in friend:
+        data[idx] = money[i-1]
+        friend.add(i)
+    else:
+        data[idx] = min(data[idx],money[i-1])
+
+#print(friend)
+#print(data)
+res = sum(data.values())
+
+if k < res:
+    print('Oh no')
+else:
+    print(res)
