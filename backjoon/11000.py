@@ -1,3 +1,7 @@
+import sys
+
+input = sys.stdin.readline
+
 n = int(input())
 
 data = []
@@ -6,13 +10,21 @@ for _ in range(n):
     data.append([a,b])
 data.sort()
 
-temp = [data[0][1]]
+'''
+배정된 여러 강의실이 있으면, 
+그 중 시간이 가장 많이 남는
+(배정된 수업의 끝나는 시간이 가장 이른) 곳에
+배정하는것이 이득인게 포인트가 될 수 있을 것
+'''
 
-res = 0
-for start,end in data:
-    for i in range(len(temp)):
-        if end not in temp:
-            if temp[i] > start:
-                res += 1
-                temp.append(end)
-print(len(temp)-1)
+import heapq
+heap = []
+
+heapq.heappush(heap,data[0][1])
+for i in range(1,n):
+    if heap[0] > data[i][0]:
+        heapq.heappush(heap,data[i][1])
+    else:
+        heapq.heappop(heap)
+        heapq.heappush(heap,data[i][1])
+print(len(heap))

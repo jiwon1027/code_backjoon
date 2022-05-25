@@ -1,7 +1,7 @@
-from bisect import bisect_left,bisect_right
+data = [(1,1),(1,2),(1,3),(1,4),(1,7),(1,8)]
 
-a = [1,2,4,4,8]
-x = 9
 
-print(type(bisect_left(a,x)))
-print(bisect_right(a,x))
+from bisect import bisect_left
+
+print(bisect_left(data,(1,6)))
+
