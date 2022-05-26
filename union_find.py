@@ -13,10 +13,6 @@ def find(target):
         parent[target] = find(parent[target])
     return parent[target]
 
-
-
-
-
 # union 연산
 def union(a, b):
     a = find(a)
