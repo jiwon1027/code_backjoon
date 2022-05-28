@@ -1,7 +1,11 @@
-data = [(1,1),(1,2),(1,3),(1,4),(1,7),(1,8)]
+def grammercheck(word):
+    data = ['a', 'e', 'i', 'o', 'u']
 
+    if word[0] in data:
+        return 'an ' + word
+    else:
+        return 'a ' + word
 
-from bisect import bisect_left
+word = input()
 
-print(bisect_left(data,(1,6)))
-
+print(grammercheck(word))
