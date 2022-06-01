@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cff619ce-8146-4c52-8295-4626fd5c76a3" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/ssafy_no1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssafy_no2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backjoon/13417.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backjoon/2072.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2602.py" beforeDir="false" afterPath="$PROJECT_DIR$/backjoon/2602.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +60,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/naver_movie_scrap-main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -77,7 +77,7 @@
       <recent name="$PROJECT_DIR$/backjoon" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test (2)">
+  <component name="RunManager" selected="Python.test">
     <configuration name="ssafy_no1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="code_backjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.test (2)" />
         <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.ssafy_no2" />
         <item itemvalue="Python.ssafy_no1" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
