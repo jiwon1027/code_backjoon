@@ -1,17 +1,21 @@
+import sys
+input = sys.stdin.readline
+
 n = int(input())
 data = []
 for _ in range(n):
     data.append(int(input()))
-cnt = 0
-for i in reversed(range(n)):
-    print(data)
+res = 0
+std = 1
 
-    if data[i] != i+1:
-        data = [data.pop(i)] + data
-        cnt += 1
-    print(data)
-
-print(cnt)
+for i in range(n):
+    if data[i] > std:
+        if data[i] == std+1:
+            std = std+1
+            continue
+        res += data[i]-std
+        std = data[i]
+print(res)
 
 
 
