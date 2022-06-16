@@ -3,7 +3,7 @@ sys.setrecursionlimit(10**6)
 
 f = open("dict_simplified.txt", 'r')
 lines = f.readlines()
-
+    
 word = []
 explan = []
 
@@ -24,8 +24,9 @@ for i in range(len(word)):
         if std in explan[j]:
             graph[i].append(j)
             edge_cnt += 1
-print('Answer1 : ',len(word),edge_cnt//2)
+print('Answer1 : ',len(word), edge_cnt//2)
 
+# 차수 max값 찾기
 max_degree = 0
 idx = 0
 for i, row in enumerate(graph):
@@ -34,7 +35,7 @@ for i, row in enumerate(graph):
         idx = i
 print('Answer2 : ',word[idx], max_degree)
 
-
+# connected componet는 dfs로 탐색하여 max()로 필터링
 temp_conn_cnt = 0
 conn_cnt = 0
 def conn_dfs(v):
@@ -54,11 +55,12 @@ while True:
         print('Answer3 : ',conn_cnt)
         break
 
+# k의 길이만큼 탐색
 std_word, k = input('Answer4 : ').split()
 visited = [0] * len(word)
 
 temp_res = set()
-temp_res.add(word)
+
 def dfs(v,depth):
     if depth == int(k):
         return
@@ -69,10 +71,11 @@ def dfs(v,depth):
         if not visited[i]:
             temp_res.add(i)
             dfs(i,depth+1)
-dfs(word,0)
+dfs(word.index(std_word),0)
 
+print(std_word)
 for i in temp_res:
-    print(i)
+    print(word[i])
 
 
 f.close()
