@@ -2,24 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cff619ce-8146-4c52-8295-4626fd5c76a3" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/backjoon/11441.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backjoon/1309.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backjoon/13301.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backjoon/14425.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backjoon/14582.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backjoon/16937.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backjoon/16956.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backjoon/17103.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backjoon/1802.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backjoon/2075.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backjoon/2225.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backjoon/2251.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backjoon/6236.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backjoon/9372.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backjoon/9996.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/code_backjoon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/code_backjoon.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backjoon/14468.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backjoon/17086.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backjoon/25312.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backjoon/2548.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backjoon/9507.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backjoon/10025.py" beforeDir="false" afterPath="$PROJECT_DIR$/backjoon/10025.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,8 +81,8 @@
       <recent name="$PROJECT_DIR$/backjoon" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.11441">
-    <configuration name="11441" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.17086">
+    <configuration name="10025" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="code_backjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,7 +94,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backjoon/11441.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backjoon/10025.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,7 +103,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="13301" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="14468" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="code_backjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,7 +115,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backjoon/13301.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backjoon/14468.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="14425" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="17086" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="code_backjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -147,7 +136,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backjoon/14425.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backjoon/17086.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,7 +145,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2075" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="2548" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="code_backjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -168,7 +157,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backjoon/2075.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backjoon/2548.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,7 +166,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="9372" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="9507" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="code_backjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -189,7 +178,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backjoon/9372.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backjoon/9507.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.11441" />
-        <item itemvalue="Python.2075" />
-        <item itemvalue="Python.14425" />
-        <item itemvalue="Python.9372" />
-        <item itemvalue="Python.13301" />
+        <item itemvalue="Python.17086" />
+        <item itemvalue="Python.10025" />
+        <item itemvalue="Python.9507" />
+        <item itemvalue="Python.2548" />
+        <item itemvalue="Python.14468" />
       </list>
     </recent_temporary>
   </component>
