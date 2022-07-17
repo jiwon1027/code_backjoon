@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cff619ce-8146-4c52-8295-4626fd5c76a3" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/SWEA/1959.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/1961.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/1974.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/1979.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/2001.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/.project" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,8 +81,8 @@
       <recent name="$PROJECT_DIR$/backjoon" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.14426">
-    <configuration name="10025" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.1974">
+    <configuration name="1959" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="code_backjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,11 +90,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backjoon" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backjoon/10025.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/1959.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -97,7 +103,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="13702" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1961" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="code_backjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,11 +111,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backjoon" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backjoon/13702.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/1961.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -118,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="14426" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1974" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="code_backjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,11 +132,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backjoon" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backjoon/14426.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/1974.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,7 +145,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1614" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1979" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="code_backjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -147,11 +153,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backjoon" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backjoon/1614.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/1979.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,7 +166,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="17086" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="2001" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="code_backjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -168,11 +174,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backjoon" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SWEA" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backjoon/17086.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SWEA/2001.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.14426" />
-        <item itemvalue="Python.13702" />
-        <item itemvalue="Python.1614" />
-        <item itemvalue="Python.17086" />
-        <item itemvalue="Python.10025" />
+        <item itemvalue="Python.1974" />
+        <item itemvalue="Python.1961" />
+        <item itemvalue="Python.2001" />
+        <item itemvalue="Python.1979" />
+        <item itemvalue="Python.1959" />
       </list>
     </recent_temporary>
   </component>
