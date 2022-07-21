@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cff619ce-8146-4c52-8295-4626fd5c76a3" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/backjoon/16953.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backjoon/7795.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SWEA/1959.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SWEA/1961.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SWEA/1974.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SWEA/1979.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SWEA/2001.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
