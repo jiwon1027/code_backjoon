@@ -1,31 +1,35 @@
 def dfs(v):
+    visited[v] = 1
     print(v, end=' ')
-    visit[v] = 1
-    for i in range(1, n + 1):
-        if visit[i] == 0 and s[v][i] == 1:
+    for i in graph[v]:
+        if not visited[i]:
             dfs(i)
 
+from collections import deque
 
-def bfs(v):
-    queue = [v]
-    visit[v] = 0
-    while (queue):
-        v = queue[0]
+def bfs(temp):
+    queue = deque()
+    queue.append(temp)
+    visited[temp] = 0
+    while queue:
+        v = queue.popleft()
         print(v, end=' ')
-        del queue[0]
-        for i in range(1, n + 1):
-            if visit[i] == 1 and s[v][i] == 1:
+        for i in graph[v]:
+            if visited[i]:
                 queue.append(i)
-                visit[i] = 0
+                visited[i] = 0
 
 
 n, m, v = map(int, input().split())
-s = [[0] * (n + 1) for i in range(n + 1)]
-visit = [0 for i in range(n + 1)]
+graph = [[] for _ in range(n + 1)]
+visited = [0] * (n+1)
 for i in range(m):
     x, y = map(int, input().split())
-    s[x][y] = 1
-    s[y][x] = 1
+    graph[x].append(y)
+    graph[y].append(x)
+
+for row in graph:
+    row.sort()
 
 dfs(v)
 print()
