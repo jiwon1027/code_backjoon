@@ -4,7 +4,6 @@ dic = {'H':1, 'C':12, 'O':16}
 res = 0
 stack = []
 for part in data:
-
     if part == "(":
         stack.append(part)
 
