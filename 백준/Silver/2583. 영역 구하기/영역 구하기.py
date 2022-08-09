@@ -16,24 +16,19 @@ def bfs(x,y):
             nx = x + dx[i]
             ny = y + dy[i]
             if 0<=nx<m and 0<=ny<n and not visited[nx][ny]:
-                if not board[nx][ny]:
                     queue.append((nx,ny))
                     visited[nx][ny] = 1
                     temp += 1
     return temp
 
 m,n,k = list(map(int,input().split()))
-board = [[0] * n for _ in range(m)]
-
 visited = [[0] * n for _ in range(m)]
 
 for _ in range(k):
     x1, y1, x2, y2 = list(map(int, input().split()))
     for i in range(m-y2,m-y1):
         for j in range(x1,x2):
-            board[i][j] = 1
             visited[i][j] = 1
-
 
 res = []
 for i in range(m):
