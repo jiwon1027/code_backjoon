@@ -47,7 +47,8 @@ per = []
 for _ in range(k):
     per.append(list(map(int, input().split())))
 per = permutations(per)
-
+for i in per:
+    print(i)
 res = 9876543210
 
 for p in per:
