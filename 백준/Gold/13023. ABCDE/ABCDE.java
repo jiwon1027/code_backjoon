@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
 
-public class Main{
+public class Main {
 	static int N,M;
 	static List<Integer>[] list;
 	static boolean[] visited;
@@ -49,8 +49,7 @@ public class Main{
 	        for(int i = 0; i < list[x].size(); i++) {
 	            int temp = list[x].get(i);
 	            
-	            if(visited[temp] == false) {
-	                visited[temp] = true;
+	            if(!visited[temp]) {
 	                dfs(temp, depth + 1);
 	                visited[temp] = false;
 	            }
