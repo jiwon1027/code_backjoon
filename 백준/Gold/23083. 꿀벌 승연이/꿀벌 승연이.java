@@ -13,13 +13,12 @@ import java.util.StringTokenizer;
 *
 * 근데 1000x1000인 board에서 과연 dfs가 될까? DP로 풀어야됨
 *
-* dp table의 범위가 엄청 크기 때문에 long으로 해야함
+* 1. dp table의 범위가 엄청 크기 때문에 long으로 해야함
+* 2. table의 1열의 값은 어떻게 될까? 아래로 내려오는경우 밖에 없는데 도중에 빈칸이 있으면 그 아래는 경우가 되면 값은 0이 되야함
 *
 * */
 
 public class Main {
-
-
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
@@ -58,7 +57,7 @@ public class Main {
                     continue;
 
                 if (j % 2 == 1){ //홀수
-                    dp[i][j] = dp[i-1][j] % F + dp[i][j-1]% F + dp[i-1][j-1]% F;
+                    dp[i][j] = dp[i-1][j]% F+ dp[i][j-1]% F + dp[i-1][j-1]% F;
                 }else{ //짝수
                     dp[i][j] = dp[i - 1][j]% F + dp[i][j - 1]% F + dp[i+1][j-1]% F;
                 }
@@ -74,6 +73,4 @@ public class Main {
 
         System.out.println(dp[N][M] % F) ;
     }
-
-
 }
